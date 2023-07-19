@@ -7,7 +7,7 @@ var X_AXIS = 'Academic Year';
 var Y_AXIS = 'Number of Students';
 
 // Should y-axis start from 0? `true` or `false`
-var BEGIN_AT_ZERO = true;
+var BEGIN_AT_ZERO = false;
 
 // `true` to show the grid, `false` to hide
 var SHOW_GRID = true;
