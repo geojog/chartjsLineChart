@@ -4,10 +4,10 @@ var TITLE = 'Hartford School District is No Longer Largest in Connecticut';
 var X_AXIS = 'Academic Year';
 
 // y-axis label and label in tooltip
-var Y_AXIS = 'Number of Students'; 
+var Y_AXIS = 'Number of Students';
 
 // Should y-axis start from 0? `true` or `false`
-var BEGIN_AT_ZERO = false;
+var BEGIN_AT_ZERO = true;
 
 // `true` to show the grid, `false` to hide
 var SHOW_GRID = true;
@@ -46,7 +46,7 @@ $(document).ready(function() {
         labels: timeLabels,
         datasets: datasets,
       },
-      
+
       options: {
         title: {
           display: true,
